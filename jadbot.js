@@ -85,7 +85,7 @@ function receivedMessage(event) {
   var messageText = message.text;
   var messageAttachments = message.attachments;
   var greetingBank = ['Why hello there!', 'Cheers, mate :)', 'Greetings, my child.', 'Sup dawg', "What's crackalackin'??", 'Hey!!', 'Hi there :)', 'Good day to you!', 'Pleased to make your acquaintance.', 'YOOOOOOO!', 'Good evening, sire', 'Welcome, your majesty', 
-                      "Hey what's up buddy?", "Ah, my old friend. Good to hear from you again.", "Hello, I'm feelin' mellow and I play a yellow cello. The greatest renaissance artist was Donatello.", "You say '" + messageText + "', I say 'Goodbye'"];
+                      "Hey what's up buddy?", "Ah, my old friend. Good to hear from you again.", "Hello, I'm feelin' mellow and I play a yellow cello. The greatest renaissance artist was Donatello.", "You say '" + messageText + "', I say 'Goodbye'", 'Excuse me, who may dis be?'];
   var max = greetingBank.length - 1;
 
   if (messageText) {
